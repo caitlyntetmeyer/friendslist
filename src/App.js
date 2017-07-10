@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 class App extends Component {
   render() {
     return (
-      
+      <div className="App">
+        {/* Tell React to render any component that's nested inside of the App component in index.js: */}
+        {this.props.children}
+        }
+      </div>
     );
   }
 }
