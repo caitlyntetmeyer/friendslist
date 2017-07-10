@@ -6,7 +6,6 @@ class App extends Component {
       <div className="App">
         {/* Tell React to render any component that's nested inside of the App component in index.js: */}
         {this.props.children}
-        }
       </div>
     );
   }

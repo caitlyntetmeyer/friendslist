@@ -69,7 +69,6 @@ class FriendList extends Component {
 					<ul className="list-group">
 						{/* Invoke the helper method of "renderFriends()" so the list is created on the DOM: */}
 						{this.renderFriends()}
-						}
 					</ul>
 				</div>
 			</div>
